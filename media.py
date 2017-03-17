@@ -19,4 +19,3 @@ class Movie():
         """with the linked url"""
         webbrowser.open(self.trailer_youtube_url)
         
-        

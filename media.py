@@ -18,3 +18,4 @@ class Movie():
         """This instance method opens up the webbrowser"""
         """with the linked url"""
         webbrowser.open(self.trailer_youtube_url)
+

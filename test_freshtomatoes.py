@@ -5,7 +5,6 @@ import re
 
 # Styles and scripting for the page
 main_page_head = '''
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +12,6 @@ main_page_head = '''
     <meta charset="utf-8">
     <title>Fresh Tomatoes!</title><hr>
     <body bgcolor = "#eee5de">
-
     <!-- Bootstrap 3 -->
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -29,7 +27,6 @@ main_page_head = '''
             margin-left: 20px;
             margin-right: 20px;
         }
-
         .hanging-close {
             position: absolute;
             top: -12px;
@@ -145,13 +142,11 @@ main_page_head = '''
         });
     </script>
 </head>
-
 '''
 
 
 main_page_content = '''
   <body>
-
   <center>
   <b><h1>MOVIE TRAILERS FOR CHILDREN
   <body>
@@ -174,7 +169,6 @@ main_page_content = '''
         </div>
       </div>
     </div>
-
     <!-- Main Page Content -->
     <div class="container">
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -201,7 +195,6 @@ main_page_content = '''
         and her daughters into the family home.</p>
     </div>
 </div>
-
 <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
     <div class="thumbnail">
         <img class="img-responsive movie-img"
@@ -215,7 +208,6 @@ main_page_content = '''
         eternal winter</p>
     </div>
 </div>
-
 <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
     <div class="thumbnail">
         <img class="img-responsive movie-img"
@@ -230,7 +222,6 @@ main_page_content = '''
         complete mayhem..</p>
     </div>
 </div>
-
 <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
     <div class="thumbnail">
         <img class="img-responsive movie-img"
@@ -246,7 +237,6 @@ main_page_content = '''
         on their bellies.</p>
     </div>
 </div>
-
 <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
     <div class="thumbnail">
         <img class="img-responsive movie-img"
@@ -261,7 +251,6 @@ main_page_content = '''
         he proves to be brave,truthful,and unselfish.</p>
     </div>
 </div>
-
 <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
     <div class="thumbnail">
         <img class="img-responsive movie-img"
@@ -275,12 +264,10 @@ main_page_content = '''
         every day in his family's noodle shop.</p>
     </div>
 </div>
-
         </div>
     </div>
   </body>
 </html>
-
 '''
 
 # A single movie entry html template
@@ -331,4 +318,3 @@ def open_movies_page(movies):
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)
 
-    

@@ -58,5 +58,3 @@ Kung = media.Movie("Kung Fu Panda",
 media_list = [Cindrella, Frozen, Charlie, Teletubbies, Pinocchio, Kung]
 
 test_freshtomatoes.open_movies_page(media_list)
-
-
